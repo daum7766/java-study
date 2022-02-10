@@ -15,7 +15,8 @@ class CharAtTest {
         String text = "멍토 블로그";
 
         //when
-        char value = text.charAt(0);
+        // 여기에 작성하시면 됩니다.
+        char value = 'a';
 
         //then
         assertThat(value).isEqualTo(expected);
@@ -29,7 +30,8 @@ class CharAtTest {
         String text = "멍토 블로그";
 
         //when
-        char value = text.charAt(4);
+        // 여기에 작성하시면 됩니다.
+        char value = 'a';
 
         //then
         assertThat(value).isEqualTo(expected);
@@ -43,23 +45,10 @@ class CharAtTest {
         String text = "멍토 블로그";
 
         //when
-        char value = text.charAt(2);
+        // 여기에 작성하시면 됩니다.
+        char value = 'a';
 
         //then
         assertThat(value).isEqualTo(expected);
-    }
-
-    @Test
-    @DisplayName("테스트 이름")
-    void name() {
-        //given
-        int a = 1;
-        int b = 1;
-
-        //when
-        boolean value = a == b;
-
-        //then
-        assertThat(value).isTrue();
     }
 }

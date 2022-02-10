@@ -15,6 +15,7 @@ class EqualsTest {
         String b = new String("멍토블로그");
 
         //when
+        // 여기에 작성하시면 됩니다.
         boolean value = true;
 
         //then
@@ -29,6 +30,7 @@ class EqualsTest {
         String b = new String("멍토블로그");
 
         //when
+        // 여기에 작성하시면 됩니다.
         boolean value = false;
 
         //then
